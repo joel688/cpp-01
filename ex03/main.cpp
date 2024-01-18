@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: joakoeni <joakoeni@student.42mulhouse.fr>  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/01/18 10:50:16 by joakoeni          #+#    #+#             */
+/*   Updated: 2024/01/18 10:50:17 by joakoeni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "./Class/HumanA/HumanA.hpp"
 #include "./Class/HumanB/HumanB.hpp"
 #include "./Class/Weapon/Weapon.hpp"
