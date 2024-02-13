@@ -20,7 +20,7 @@ std::string replace_content(const std::string& source, const std::string& s1, co
 	size_t last_pos = 0;
 	size_t pos = source.find(s1, last_pos);
 
-	while (pos < source.length())
+	while (!s1.empty() && pos < source.length())
 	{
 		new_content.append(source, last_pos, pos - last_pos);
 		new_content += s2;
