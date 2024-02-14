@@ -6,7 +6,7 @@
 /*   By: joakoeni <joakoeni@student.42mulhouse.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/18 10:50:35 by joakoeni          #+#    #+#             */
-/*   Updated: 2024/01/18 10:50:36 by joakoeni         ###   ########.fr       */
+/*   Updated: 2024/02/14 15:32:14 by joakoeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 HumanB::HumanB(const std::string& name)
 {
   this->SetName(name);
+  this->weapon = NULL;
   return ;
 }
 
@@ -52,5 +53,7 @@ const std::string& HumanB::GetName(void)
 
 void  HumanB::attack()
 {
-  std::cout << this->GetName() << " attack with their " << this->weapon->getType() << std::endl;
+	if(this->weapon)
+  		std::cout << this->GetName() << " attack with their " << this->weapon->getType() << std::endl;
+	return;
 }
